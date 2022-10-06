@@ -1,0 +1,751 @@
+
+wifistats1 wifi1
+
+HTT_TX_PDEV_STATS_CMN_TLV:
+mac_id = 0
+comp_delivered = 0
+self_triggers = 2962156961
+hw_queued = 15811995
+hw_reaped = 15811995
+underrun = 0
+hw_paused = 7282342
+hw_flush = 513446
+hw_filt = 524135
+tx_abort = 0
+ppdu_ok = 14729575
+mpdu_requeued = 677875
+tx_xretry = 406340
+data_rc = 3
+mpdu_dropped_xretry = 343
+illegal_rate_phy_err = 0
+cont_xretry = 0
+tx_timeout = 0
+tx_time_dur_data = 303454070
+tx_time_dur_non_data = 0
+tx_time_dur_bcn = 848319031
+tx_time_dur_mgmt = 116143811
+tx_time_dur_mcast = 0
+pdev_resets = 70
+phy_underrun = 800
+txop_ovf = 0
+seq_posted = 8615531
+seq_failed_queueing = 283168
+seq_completed = 8332836
+seq_restarted = 0
+seq_txop_repost_stop = 118139
+next_seq_cancel = 513397
+mu_mimo_seq_posted = 0
+mu_ofdma_seq_posted = 0
+mu_mimo_peer_blacklist_count = 0
+seq_qdepth_repost_stop = 29252
+seq_min_msdu_repost_stop = 272637
+mu_seq_min_msdu_repost_stop = 0
+seq_switch_hw_paused = 290
+next_seq_posted_dsr = 9656
+seq_posted_isr = 581056
+seq_ctrl_cached = 841679
+mpdu_count_tqm = 1558492
+msdu_count_tqm = 1821297
+mpdu_removed_tqm = 251
+msdu_removed_tqm = 319
+remove_mpdus_max_retries = 246
+mpdus_sw_flush = 15591
+mpdus_hw_filter = 0
+mpdus_truncated = 65260
+mpdus_ack_failed = 611202
+mpdus_expired = 0
+mpdus_seq_hw_retry = 126270
+ack_tlv_proc = 846139
+coex_abort_mpdu_cnt_valid = 1079676
+coex_abort_mpdu_cnt = 16005769
+num_total_ppdus_tried_ota = 15005025
+num_data_ppdus_tried_ota = 1079676
+local_ctrl_mgmt_enqued = 13820311
+local_ctrl_mgmt_freed = 13820311
+local_data_enqued = 0
+local_data_freed = 0
+mpdu_tried = 0
+isr_wait_seq_posted = 0
+tx_active_dur_us_low = 0
+tx_active_dur_us_high = 0
+fes_offsets_err_cnt = 0
+
+wifistats2
+
+
+# wifistats wifi1 2
+HTT_RX_PDEV_FW_STATS_TLV:
+mac_id = 0
+ppdu_recvd = 24487065
+mpdu_cnt_fcs_ok = 20193738
+mpdu_cnt_fcs_err = 4470785
+tcp_msdu_cnt = 29394
+tcp_ack_msdu_cnt = 857035
+udp_msdu_cnt = 1063626
+other_msdu_cnt = 18649345
+fw_ring_mpdu_ind = 18001132
+fw_ring_mgmt_subtype =  0:15, 1:0, 2:0, 3:0, 4:115354, 5:102212, 6:0, 7:0, 8:16488774, 9:0, 10:0, 11:13, 12:4, 13:59, 14:0, 15:0,
+fw_ring_ctrl_subtype =  0:0, 1:0, 2:0, 3:0, 4:0, 5:1294701, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0, 13:0, 14:0, 15:0,
+fw_ring_mcast_data_msdu = 0
+fw_ring_bcast_data_msdu = 0
+fw_ring_ucast_data_msdu = 0
+fw_ring_null_data_msdu = 0
+fw_ring_mpdu_drop = 4953118
+ofld_local_data_ind_cnt = 0
+ofld_local_data_buf_recycle_cnt = 0
+drx_local_data_ind_cnt = 0
+drx_local_data_buf_recycle_cnt = 0
+local_nondata_ind_cnt = 18001132
+local_nondata_buf_recycle_cnt = 18001131
+fw_status_buf_ring_refill_cnt = 24487065
+fw_status_buf_ring_empty_cnt = 0
+fw_pkt_buf_ring_refill_cnt = 22996712
+fw_pkt_buf_ring_empty_cnt = 1
+fw_link_buf_ring_refill_cnt = 22954250
+fw_link_buf_ring_empty_cnt = 0
+host_pkt_buf_ring_refill_cnt = 2084088
+host_pkt_buf_ring_empty_cnt = 2
+mon_pkt_buf_ring_refill_cnt = 128
+mon_pkt_buf_ring_empty_cnt = 2
+mon_status_buf_ring_refill_cnt = 2047
+mon_status_buf_ring_empty_cnt = 2
+mon_desc_buf_ring_refill_cnt = 8191
+mon_desc_buf_ring_empty_cnt = 2
+mon_dest_ring_update_cnt = 0
+mon_dest_ring_full_cnt = 0
+rx_suspend_cnt = 95496
+rx_suspend_fail_cnt = 0
+rx_resume_cnt = 95496
+rx_resume_fail_cnt = 0
+rx_ring_switch_cnt = 0
+rx_ring_restore_cnt = 0
+rx_flush_cnt = 0
+rx_recovery_reset_cnt = 0
+
+HTT_RX_PDEV_FW_RING_MPDU_ERR_TLV_V:
+fw_ring_mpdu_err =  0:0, 1:718288, 2:3633548, 3:0, 4:0, 5:601281, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0, 13:0, 14:0, 15:0,
+
+HTT_RX_PDEV_FW_MPDU_DROP_TLV_V:
+fw_mpdu_drop =  0:4351836, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0, 13:0, 14:0, 15:0,
+
+HTT_RX_SOC_FW_STATS_TLV:
+fw_reo_ring_data_msdu = 0
+fw_to_host_data_msdu_bcmc = 0
+fw_to_host_data_msdu_uc = 0
+ofld_remote_data_buf_recycle_cnt = 0
+ofld_remote_free_buf_indication_cnt = 0
+ofld_buf_to_host_data_msdu_uc = 0
+reo_fw_ring_to_host_data_msdu_uc = 0
+wbm_sw_ring_reap = 0
+wbm_forward_to_host_cnt = 0
+wbm_target_recycle_cnt = 0
+target_refill_ring_recycle_cnt = 0
+HTT_RX_SOC_FW_REFILL_RING_EMPTY_TLV_V:
+refill_ring_empty_cnt =  0:0, 1:0, 2:0,
+
+HTT_RX_SOC_FW_REFILL_RING_NUM_REFILL_TLV_V:
+refill_ring_num_refill =  0:0, 1:0, 2:0,
+
+HTT_RX_SOC_FW_REFILL_RING_NUM_RXDMA_ERR_TLV_V:
+rxdma_err =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0, 13:0, 14:0, 15:0,
+
+HTT_RX_SOC_FW_REFILL_RING_NUM_REO_ERR_TLV_V:
+reo_err =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0, 13:0, 14:0, 15:0,
+
+HTT_RX_PDEV_FW_STATS_PHY_ERR_TLV:
+mac_id__word = 0
+tota_phy_err_nct = 716026
+phy_errs =  0:0, 1:0, 2:0, 3:23649, 4:0, 5:0, 6:689941, 7:0, 8:89, 9:0, 10:0, 11:0, 12:0, 13:0, 14:0, 15:0, 16:0, 17:0, 18:0, 19:0, 20:0, 21:0, 22:0, 23:0, 24:0, 25:0, 26:0, 27:0, 28:0, 29:0, 30:0, 31:0, 32:0, 33:0, 34:0, 35:0, 36:0, 37:0, 38:0, 39:0, 40:0, 41:0, 42:2347,
+
+HTT_RX_REO_RESOURCE_STATS_TLV:
+sample_id = 1
+total_max = 73
+total_avg = 0
+total_sample = 525549642
+non_zeros_avg = 10
+non_zeros_sample = 17048
+last_non_zeros_max = 19
+last_non_zeros_min 19
+last_non_zeros_avg 19
+last_non_zeros_sample 1
+
+HTT_RX_REO_RESOURCE_STATS_TLV:
+sample_id = 3
+total_max = 162
+total_avg = 0
+total_sample = 525549642
+non_zeros_avg = 12
+non_zeros_sample = 11224
+last_non_zeros_max = 16
+last_non_zeros_min 16
+last_non_zeros_avg 16
+last_non_zeros_sample 1
+
+HTT_RX_REO_RESOURCE_STATS_TLV:
+sample_id = 6
+total_max = 20
+total_avg = 0
+total_sample = 506541918
+non_zeros_avg = 5
+non_zeros_sample = 5822
+last_non_zeros_max = 8
+last_non_zeros_min 3
+last_non_zeros_avg 5
+last_non_zeros_sample 20
+
+HTT_RX_REO_RESOURCE_STATS_TLV:
+sample_id = 7
+total_max = 1
+total_avg = 0
+total_sample = 525549642
+non_zeros_avg = 1
+non_zeros_sample = 11225
+last_non_zeros_max = 1
+last_non_zeros_min 1
+last_non_zeros_avg 1
+last_non_zeros_sample 1
+
+HTT_RX_REO_RESOURCE_STATS_TLV:
+sample_id = 10
+total_max = 1
+total_avg = 0
+total_sample = 506541918
+non_zeros_avg = 1
+non_zeros_sample = 5820
+last_non_zeros_max = 1
+last_non_zeros_min 1
+last_non_zeros_avg 1
+last_non_zeros_sample 20
+
+# wifistats wifi1 3
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 0
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 1225
+filt_cnt = 23775
+null_mpdu_bmap = 0
+user_ack_failure = 21268265
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 25000
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 21268265
+mpdu_queued_cnt = 21293265
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:21268265, 1:0, 2:0, 3:23775, 4:0, 5:0, 6:0, 7:1225, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:10659154, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:21268265, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 1
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 2
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 3
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 4
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 5
+xretry = 36
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 134
+mpdu_queued_cnt = 134
+mpdu_ack_fail_cnt = 36
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:98, 1:0, 2:0, 3:0, 4:36, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:98, 1:0, 2:36, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 6
+xretry = 219853
+underrun_cnt = 0
+flush_cnt = 9559
+filt_cnt = 8722
+null_mpdu_bmap = 0
+user_ack_failure = 645404
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 9559
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 981526
+mpdu_queued_cnt = 991085
+mpdu_ack_fail_cnt = 219853
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:761673, 1:8, 2:0, 3:0, 4:219845, 5:0, 6:0, 7:9559, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:8722, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:761673, 1:0, 2:219845, 3:0, 4:0, 5:0, 6:8, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 7
+xretry = 53233
+underrun_cnt = 0
+flush_cnt = 122394
+filt_cnt = 122346
+null_mpdu_bmap = 0
+user_ack_failure = 13575
+ack_tlv_proc = 202262
+sched_id_proc = 1181669
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 129247
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 335349
+mpdu_queued_cnt = 336736
+mpdu_ack_fail_cnt = 78587
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:216309, 1:8, 2:0, 3:0, 4:53225, 5:0, 6:0, 7:122394, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:101893, 2:0, 3:38451, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:216309, 1:0, 2:51735, 3:0, 4:0, 5:0, 6:8, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 8
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 9
+xretry = 509227
+underrun_cnt = 0
+flush_cnt = 814555
+filt_cnt = 808474
+null_mpdu_bmap = 0
+user_ack_failure = 271582
+ack_tlv_proc = 1443749
+sched_id_proc = 1186295
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 952242
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 4555462
+mpdu_queued_cnt = 5071921
+mpdu_ack_fail_cnt = 1126495
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:1716112, 1:899, 2:0, 3:0, 4:508328, 5:0, 6:0, 7:814555, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:648420, 2:0, 3:398600, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:1716112, 1:0, 2:468953, 3:0, 4:0, 5:0, 6:829, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 10
+xretry = 28626
+underrun_cnt = 0
+flush_cnt = 51049
+filt_cnt = 51044
+null_mpdu_bmap = 0
+user_ack_failure = 30656
+ack_tlv_proc = 61345
+sched_id_proc = 1182258
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 66582
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 109918
+mpdu_queued_cnt = 111089
+mpdu_ack_fail_cnt = 29938
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:92041, 1:0, 2:0, 3:16, 4:28626, 5:0, 6:0, 7:51049, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:36743, 2:0, 3:22061, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:92041, 1:0, 2:27820, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 11
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 12
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 13
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 14
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+HTT_TX_HWQ_STATS_CMN_TLV:
+mac_id = 0
+hwq_id = 15
+xretry = 0
+underrun_cnt = 0
+flush_cnt = 0
+filt_cnt = 0
+null_mpdu_bmap = 0
+user_ack_failure = 0
+ack_tlv_proc = 0
+sched_id_proc = 0
+null_mpdu_tx_count = 0
+mpdu_bmap_not_recvd = 0
+num_bar = 0
+rts = 0
+cts2self = 0
+qos_null = 0
+mpdu_tried_cnt = 0
+mpdu_queued_cnt = 0
+mpdu_ack_fail_cnt = 0
+mpdu_filt_cnt = 0
+false_mpdu_ack_count = 0
+txq_timeout = 0
+
+HTT_TX_HWQ_CMD_RESULT_STATS_TLV_V:
+cmd_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0, 11:0, 12:0,
+
+HTT_TX_HWQ_CMD_STALL_STATS_TLV_V:
+cmd_stall_status =  0:0, 1:0, 2:0, 3:0, 4:0,
+
+HTT_TX_HWQ_FES_RESULT_STATS_TLV_V:
+fes_result =  0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0,
+
+
+
+
